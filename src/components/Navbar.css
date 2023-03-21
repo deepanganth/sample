@@ -1,0 +1,106 @@
+.nav-section{
+  position: absolute;
+  margin: 0;
+  width: 99.9vw;
+  height: 100vh;
+}
+.wrapper {
+  position: absolute;
+  bottom: 10rem;
+  z-index: 10;
+  width: 100vw;
+  max-height: 220px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 4, 0.726) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  margin-left: 1rem;
+  min-width: 15rem;
+  height: 9rem;
+  background-color: rgba(76, 143, 250, 0.334);
+}
+
+/* width and height of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #a1a1a100;
+}
+
+/* color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.595);
+  border-radius: 5px;
+}
+
+canva{
+  height: 100%;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.left-btn{
+  cursor: pointer;
+  z-index: 12;
+  position: absolute;
+  bottom: 12.5rem;
+  width: 3rem;
+  height: 4rem;
+}
+.right-btn{
+  cursor: pointer;
+  z-index: 12;
+  position: absolute;
+  bottom: 12.5rem;
+  right: 0;
+  width: 3rem;
+  height: 4rem;
+}
+
+.toggle-menu{
+  z-index: 12;
+  cursor: pointer;
+  position: absolute;
+  bottom: 4rem;
+  right: 47%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.toggle-menu:hover{
+  scale: 0.9;
+}
+
+.box p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 10px;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.501);
+}
+.box-1{
+  background: url(./assets/home-box.jpg);
+}
+.box-2{
+  background: url(./assets/center-box.jpg);
+}
+.box-3{
+  background: url(./assets/west-box.jpg);
+}
+.box-4{
+  background: url(./assets/east-box.jpg);
+}
