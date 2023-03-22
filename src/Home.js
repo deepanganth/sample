@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './Home.css';
-import Vrbox from './Vrbox';
-import './scrollbar.css'
+import './components/Home.css';
+import Vrbox from './components/Vrbox';
+import './components/scrollbar.css'
 import {Link} from 'react-router-dom';
-import logo from './assets/logo.png';
-import Sample from './Sample';
-import expand from './assets/expand.png'
+import logo from './components/assets/logo.png';
+import Sample from './components/Sample';
+import expand from './components/assets/expand.png'
 class Home extends Component {
     state = {  } 
     render() { 
@@ -58,9 +58,7 @@ class Home extends Component {
                     width="1000" 
                     height="380" 
                     style={{border:0}} 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
+                    loading="lazy" >
                     </iframe>
                 </div>
                 <div className='footer'>

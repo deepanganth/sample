@@ -1,4 +1,4 @@
-import Home from './components/Home'
+import Home from './Home'
 import CenterBlock from './components/CenterBlock';
 import WestBlock from './components/WestBlock';
 import EastBlock from './components/EastBlock';
